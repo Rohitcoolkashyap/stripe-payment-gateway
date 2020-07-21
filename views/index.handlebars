@@ -1,0 +1,17 @@
+<section class="py-2">
+
+
+    <h1 class="display-3 mt-3 pt-5">
+        Learn payment gateway stripe
+    </h1>
+
+    <div class="ml-4">
+        <form action="/charge" method="POST">
+            <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                data-key="{{stripePublishableKey}}" data-amount="2500" data-name="book" data-description="sell books"
+                data-image="/img/marketplace.png" data-locale="auto" data-currency="inr">
+                </script>
+        </form>
+    </div>
+
+</section>
